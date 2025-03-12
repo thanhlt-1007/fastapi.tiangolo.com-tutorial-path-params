@@ -50,6 +50,12 @@ curl --location 'http://127.0.0.1:8000/users/1'
 curl --location 'http://127.0.0.1:8000/users/me'
 ```
 
+### Get user by name:
+
+```sh
+curl --location 'http://127.0.0.1:8000/users/name/alexnet'
+```
+
 ## API doc
 
 - [Swagger](http://127.0.0.1:8000/docs)
