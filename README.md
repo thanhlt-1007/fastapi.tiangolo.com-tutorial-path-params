@@ -32,8 +32,10 @@ fastapi dev main.py
 
 ## cURL
 
+### Read item:
+
 ```sh
-curl --location 'http://127.0.0.1:8000/'
+curl --location 'http://127.0.0.1:8000/items/1'
 ```
 
 ## API doc
